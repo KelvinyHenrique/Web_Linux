@@ -17,20 +17,58 @@ body {
 }
 
 .barradenavegacao {
-    width: 70%;
-    height: 60px;
+    width: 43%;
+    height: 50px;
     background-color: rgba(0, 0, 0, 0.623);
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
+
+.menu-esquerdo-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-direito-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-esquerdo {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-linha-vertical {
+    width: 1%;
+    height: 80%;
+     border-right: 2px solid rgb(155, 155, 155);
+}
+
+.content-direito {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 .icone {
     margin-left: 5px;
     margin-right: 5px;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-color: unset;
     display: flex;
     align-items: center;
@@ -39,50 +77,64 @@ body {
     border: unset;
 }
 
+.icone-v2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #6d6d6da4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: unset;
+    border-radius: 5px;
+}
+
 .menu-principal {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/menu.svg");
     background-repeat: no-repeat;
 }
 
 .menu-arquivos {
     display: inline-block;
-    width: 43px;
-    height: 43px;
-    background-image: url("../images/icons/navbar/folder.svg");
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/icons/navbar/folder2.svg");
     background-repeat: no-repeat;
 }
 
 .menu-loja {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/store.svg");
     background-repeat: no-repeat;
 }
 
 .menu-musica {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/music.svg");
     background-repeat: no-repeat;
 }
 
 .menu-video {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/vlc-player.svg");
     background-repeat: no-repeat;
 }
 
 .menu-chrome {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/chrome.svg");
     background-repeat: no-repeat;
 }
@@ -90,8 +142,16 @@ body {
 
 .menu-configuracao {
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     background-image: url("../images/icons/navbar/settings.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-speaker {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/icons/navbar/volume.svg");
     background-repeat: no-repeat;
 }
