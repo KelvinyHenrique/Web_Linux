@@ -1,0 +1,97 @@
+body {
+    background-image: url(../images/wallpapers/wallpaper-02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+.teste-navbar {
+    width: 100%;
+    height: 720px;
+}
+
+.barradenavegacao {
+    width: 70%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.icone {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 43px;
+    height: 43px;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: unset;
+}
+
+.menu-principal {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/menu.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-arquivos {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/folder.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-loja {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/store.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-musica {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/music.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-video {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/vlc-player.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-chrome {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/chrome.svg");
+    background-repeat: no-repeat;
+}
+
+
+.menu-configuracao {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/settings.svg");
+    background-repeat: no-repeat;
+}
