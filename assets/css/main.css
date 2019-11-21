@@ -18,11 +18,11 @@ body {
 
 .barradenavegacao {
     width: 43%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.623);
+    height: 53px;
+    background-color: rgba(39, 39, 39, 0.507);
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
 .menu-esquerdo-content {
@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .menu-linha-vertical {
@@ -61,12 +62,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 
 .icone {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
     width: 40px;
     height: 40px;
     background-color: unset;
@@ -78,10 +80,10 @@ body {
 }
 
 .icone-v2 {
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 40px;
-    height: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
     background-color: #6d6d6da4;
     display: flex;
     align-items: center;
@@ -90,6 +92,17 @@ body {
     border: unset;
     border-radius: 5px;
 }
+
+/* Animações icones */
+
+.icone-v2:hover {
+    background-color: #858383a4;
+    
+}
+
+/* Fim Animações */
+
+
 
 .menu-principal {
     display: inline-block;
@@ -150,8 +163,56 @@ body {
 
 .menu-speaker {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background-image: url("../images/icons/navbar/volume.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-ethernet {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/icons/navbar/ethernet.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-cloud {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/icons/navbar/cloud.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-search {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/icons/navbar/search.svg");
+    background-repeat: no-repeat;
+}
+
+
+.menu-power {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/power-off.svg");
+    background-repeat: no-repeat;
+}
+.menu-lixeira {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/lixeira.svg");
+    background-repeat: no-repeat;
+}
+
+.menu-terminal {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-image: url("../images/icons/navbar/terminal.svg");
     background-repeat: no-repeat;
 }
