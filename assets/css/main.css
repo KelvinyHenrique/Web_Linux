@@ -5,15 +5,240 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    margin: 0px;
 }
 
+/* Area de Trabalho Linux */
 
+.areadetrabalholinux {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* DROPDOWNS */
+
+/* MENU INICIAR DROPDOWN */
+.dropdown-menu-principal{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.dropdown-menu-principal:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+
+/* GEAREXPLORER */
+.dropdown-menu-gearexplorer{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    left: 6.5%;
+}
+.dropdown-menu-gearexplorer:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+
+/*  LOJA  */
+
+.dropdown-menu-loja{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-loja:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+
+/* SPOTFY */
+.dropdown-menu-spotfy{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-spotfy:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* VLC MEDIA PLAYER */
+.dropdown-menu-vlcmediaplayer{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-vlcmediaplayer:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* CHROME */
+.dropdown-menu-chrome{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-chrome:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* CONFIGURAÇÃO */
+.dropdown-menu-configuracao{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-configuracao:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* SOM */
+.dropdown-menu-som{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 13%;
+}
+.dropdown-menu-som:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
 
 /* BARRA DE NAVEGAÇÃO */
-
-.teste-navbar {
+.conteudonavbar {
     width: 100%;
-    height: 720px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdowns-navbar {
+    width: 44.5%;
+    height: 47px;
+    display: flex;
 }
 
 .barradenavegacao {
@@ -22,7 +247,7 @@ body {
     background-color: rgba(39, 39, 39, 0.507);
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
 }
 
 .menu-esquerdo-content {
@@ -77,6 +302,11 @@ body {
     justify-content: center;
     padding: 0;
     border: unset;
+    transition-delay: 40ms;
+}
+
+.icone:hover {
+    transform: scale(1.2);
 }
 
 .icone-v2 {
