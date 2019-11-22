@@ -157,7 +157,7 @@ body {
     height: 33px;
     color: #FFFFFF;
     position: relative;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     font-size: 13px;
@@ -186,7 +186,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 13px;
-    left: 13%;
+    left: 39.2%;
 }
 .dropdown-menu-configuracao:after{
 	content: "";
@@ -211,9 +211,160 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 13px;
-    left: 13%;
+    left: 47.5%;
 }
 .dropdown-menu-som:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+
+/* REDE*/
+.dropdown-menu-rede{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 53.4%;
+}
+.dropdown-menu-rede:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/*  NUVEM */
+.dropdown-menu-nuvem{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 59%;
+}
+.dropdown-menu-nuvem:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* PESQUISA */
+.dropdown-menu-pesquisa{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 65.1%;
+}
+.dropdown-menu-pesquisa:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* DESLIGAR */
+.dropdown-menu-desligar{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 73.8%;
+}
+.dropdown-menu-desligar:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* LIXEIRA */
+.dropdown-menu-lixeira{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left: 80.2%;
+}
+.dropdown-menu-lixeira:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #464646;
+	bottom: -10px;
+	left: 43%;
+}
+/* TERMINAL */
+.dropdown-menu-terminal{
+    background-color: #464646;
+	border-radius: 10px;
+	width: 100px;
+    height: 33px;
+    color: #FFFFFF;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    left:87%;
+}
+.dropdown-menu-terminal:after{
 	content: "";
 	width: 0;
 	height: 0;
