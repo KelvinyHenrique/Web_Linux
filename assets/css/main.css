@@ -19,6 +19,104 @@ body {
     align-items: flex-end;
 }
 
+
+/* BARRA DE NAVEGAÇÃO */
+.conteudonavbar {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdowns-navbar {
+    width: 44.5%;
+    height: 47px;
+    display: flex;
+}
+
+.barradenavegacao {
+    width: 43%;
+    height: 53px;
+    background-color: rgba(39, 39, 39, 0.507);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-esquerdo-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-direito-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-esquerdo {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-linha-vertical {
+    width: 1%;
+    height: 80%;
+     border-right: 2px solid rgb(155, 155, 155);
+}
+
+.content-direito {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icone {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: unset;
+    transition-delay: 40ms;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+}
+
+.icone-v2 {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: #6d6d6da4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: unset;
+    border-radius: 5px;
+}
 /* DROPDOWNS */
 
 /* MENU INICIAR DROPDOWN */
@@ -376,104 +474,6 @@ body {
 	left: 43%;
 }
 
-/* BARRA DE NAVEGAÇÃO */
-.conteudonavbar {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.dropdowns-navbar {
-    width: 44.5%;
-    height: 47px;
-    display: flex;
-}
-
-.barradenavegacao {
-    width: 43%;
-    height: 53px;
-    background-color: rgba(39, 39, 39, 0.507);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.menu-esquerdo-content {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-direito-content {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.content-esquerdo {
-    width: 49%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-linha-vertical {
-    width: 1%;
-    height: 80%;
-     border-right: 2px solid rgb(155, 155, 155);
-}
-
-.content-direito {
-    width: 49%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.icone {
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 40px;
-    height: 40px;
-    background-color: unset;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    border: unset;
-    transition-delay: 40ms;
-}
-
-.icone:hover {
-    transform: scale(1.2);
-}
-
-.icone-v2 {
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 35px;
-    height: 35px;
-    background-color: #6d6d6da4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    border: unset;
-    border-radius: 5px;
-}
-
 /* Animações icones */
 
 .icone-v2:hover {
@@ -596,4 +596,176 @@ body {
     height: 43px;
     background-image: url("../images/icons/navbar/terminal.svg");
     background-repeat: no-repeat;
+}
+
+
+/* RESPONSIVIDADE BARRA DE NAVEGAÇÃO */
+
+@media only screen and (max-width: 1755px) {
+    .icone {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icone-v2 {
+        width: 40px;
+        height: 40px;
+        margin-left: 4px;
+        margin-right: 4px;
+
+    }
+
+    .barradenavegacao {
+        width: 45%;
+        height: 50px;
+    }
+
+    .content-esquerdo {
+        width: 45%;
+    }
+
+.menu-speaker {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-ethernet {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-cloud {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-search {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.menu-power {
+    width: 30px;
+    height: 30px;
+}
+.menu-lixeira {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-terminal {
+    width: 30px;
+    height: 30px;
+}}
+
+
+@media only screen and (max-width: 1400px) { 
+    .icone {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icone-v2 {
+        width: 30px;
+        height: 30px;
+        margin-left: 4px;
+        margin-right: 4px;
+
+    }
+
+    .barradenavegacao {
+        width: 50%;
+        height: 50px;
+    }
+
+    .content-esquerdo {
+        width: 45%;
+    }
+
+.menu-speaker {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-ethernet {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-cloud {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-search {
+    width: 20px;
+    height: 20px;
+}
+
+
+.menu-power {
+    width: 25px;
+    height: 25px;
+}
+.menu-lixeira {
+    width: 25px;
+    height: 25px;
+}
+
+.menu-terminal {
+    width: 25px;
+    height: 25px;
+}}
+
+@media only screen and (max-width: 1200px) {
+    .barradenavegacao {
+        width: 50%;
+        height: 43px;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .barradenavegacao {
+        width: 55%;
+        height: 43px;
+    }
+    .dropdowns-navbar {
+        width: 37.5%;
+        height: 47px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .barradenavegacao {
+        width: 60%;
+        height: 43px;
+    }
+    .dropdowns-navbar {
+        width: 52.5%;
+        height: 47px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .barradenavegacao {
+        width: 70%;
+        height: 43px;
+    }
+
+    .icone {
+        width: 25px;
+        height: 25px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .dropdowns-navbar {
+        width: 62.5%;
+        height: 47px;
+        display: flex;
+    }
 }
